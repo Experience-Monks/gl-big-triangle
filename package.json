@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "budo demo/index.js:bundle.js -- -t glslify",
-    "bundle": "browserify demo/index.js -o bundle.js -- -t glslify",
+    "bundle": "browserify demo/index.js -o bundle.js -t glslify",
     "test": "node test | tap-spec"
   },
   "keywords": [
