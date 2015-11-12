@@ -80,4 +80,4 @@ Unbinds the triangle's VAO. You should call this when you're finished drawing bi
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/hughsk/gl-big-triangle/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/gl-big-triangle/blob/master/LICENSE.md) for details.
