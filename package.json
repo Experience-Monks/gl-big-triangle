@@ -1,0 +1,50 @@
+{
+  "name": "gl-big-triangle",
+  "version": "1.0.0",
+  "description": "Draws a big triangle that fills your entire viewport.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "https://github.com/hughsk"
+  },
+  "dependencies": {
+    "gl-buffer": "^2.1.2",
+    "gl-vao": "^1.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "budo": "^6.0.0",
+    "canvas-fit": "^1.5.0",
+    "gl": "^2.1.5",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.0.5",
+    "glslify": "^2.3.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "start": "budo demo/index.js:bundle.js -- -t glslify",
+    "bundle": "browserify demo/index.js -o bundle.js -- -t glslify",
+    "test": "node test | tap-spec"
+  },
+  "keywords": [
+    "webgl",
+    "gl",
+    "big",
+    "triangle",
+    "fullscreen",
+    "render",
+    "post",
+    "processing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/gl-big-triangle.git"
+  },
+  "homepage": "https://github.com/Jam3/gl-big-triangle",
+  "bugs": {
+    "url": "https://github.com/Jam3/gl-big-triangle/issues"
+  }
+}
